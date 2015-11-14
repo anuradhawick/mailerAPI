@@ -72,13 +72,13 @@
     Enter the desired password: <input type="password" name="pwd" id="pwd" required maxlength="20"><span
         id="pwcheck"></span>
     <br>
-    Site email: <input type="email" name="siteem" id="siteem" required maxlength="45">
+    Site email (Just an email for the site): <input type="email" name="siteem" id="siteem" required maxlength="45">
     <br>
-    Email 1: <input type="email" name="em1" id="em1" required maxlength="45">
+    Email 1 (Of receiver of the form data): <input type="email" name="em1" id="em1" required maxlength="45">
     <br>
-    Email 2: <input type="email" name="em2" id="em2" maxlength="45">
+    Email 2 (Of receiver of the form data): <input type="email" name="em2" id="em2" maxlength="45">
     <br>
-    <button type="submit">Submit</button>
+    <button type="submit">Register</button>
     <br>
     <button type="reset">Reset Fields</button>
 </form>

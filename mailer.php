@@ -122,7 +122,7 @@ function sendEmail($msg, $from, $to, $replyto, $subject, $email, $name)
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
     $headers .= "From: " . $from . "\r\n" .
-        'Reply-To: ' . $replyto . "\r\n" .
+        'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
     $mail = mail($to, $subject, $msgsend, $headers);
