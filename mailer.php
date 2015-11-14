@@ -7,9 +7,9 @@
  */
 require 'lib/password.php';
 define('HOST', 'localhost');
-define('UNAME', '956796');
-define('PW', 'asdwas');
-define('DBNAME', '956796');
+define('UNAME', 'root');
+define('PW', '1234');
+define('DBNAME', 'mydb');
 define('PORT', '3306');
 if ($_REQUEST['ty'] == 'check') {
     $username = $_REQUEST['un'];
